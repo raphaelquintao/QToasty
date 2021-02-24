@@ -14,12 +14,12 @@ Demo: https://raphaelquintao.github.io/QToasty/
 
 ```html
 <head>
-    <script src="https://raw.githubusercontent.com/raphaelquintao/QToasty/master/QToasty.js"></script>
+    <script src="https://raw.githubusercontent.com/raphaelquintao/QToasty/master/QToasty.js" type="text/javascript"></script>
 </head>
 ```
 #### For the key code version
 ```html
-<script>
+<script type="text/javascript">
     var toasty = new QToasty(params = {
         'domElement': document.body, // HTMLElement to show bind events.
         'sound': true, // Play sound
@@ -36,7 +36,7 @@ Demo: https://raphaelquintao.github.io/QToasty/
 ```
 #### For the button version
 ```html
-<script>
+<script type="text/javascript">
     var toasty = new QToasty(params = {'keyCodes':[]});
     
     document.getElementById("toasty_btn").addEventListener("click", ev => {
