@@ -14,7 +14,7 @@ Demo: https://raphaelquintao.github.io/QToasty/
 
 ```html
 <head>
-    <script src="https://raw.githubusercontent.com/raphaelquintao/QToasty/master/Qtoasty.js"></script>
+    <script src="https://raw.githubusercontent.com/raphaelquintao/QToasty/master/QToasty.js"></script>
 </head>
 ```
 #### For the key code version
