@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+<head>
+    <script src="../QToasty.js"></script>
+
+    <style type="text/css">
+        html, body {
+            font-size: 1em;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(13, 17, 23);
+            color: rgb(201, 209, 217);
+            font-family: sans-serif;
+        }
+
+        header {
+            background-color: rgb(22, 27, 34);
+            height: 62px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 5px solid transparent;
+            box-sizing: border-box;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        div {
+            width: 500px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button {
+            background-color: hsl(212, 12%, 21%);
+            border: 1px solid rgba(115, 115, 115, 0.4);
+            outline: none;
+            transition:  all ease 100ms;
+        }
+        button:hover {
+            border: 1px solid rgba(115, 115, 115, 0.9);
+        }
+
+        button:active {
+            background-color: hsl(212, 12%, 15%);
+        }
+
+        a:visited {
+            color: inherit;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    QToasty.js Demo
+</header>
+
+<div>
+
+    <p>Try konami code: ↑ ↑ ↓ ↓ ← → ← → B A</p>
+    <p>Try uppercut: ↓ A</p>
+
+    <button id="toasty_btn">Toasty!</button>
+</div>
+
+
+
+<script>
+    var toasty_def = new QToasty(params = {});
+
+    var toasty = new QToasty(params = { 'keyCodes': [40, 65], 'volume' : 0.5, 'imageSize': ''});
+
+
+    document.getElementById("toasty_btn").addEventListener("click", ev => {
+        ev.preventDefault();
+        toasty.trigger();
+    });
+
+    // document.addEventListener('load', ev => {
+    // setTimeout(() => {
+    //     toasty.trigger();
+    // }, 1500);
+
+    // });
+</script>
+
+</body>
+</html> 
