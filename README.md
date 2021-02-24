@@ -8,9 +8,9 @@ Mortal Kombat classic Toasty guy easter egg for web pages in pure javascript.
 Demo: https://raphaelquintao.github.io/QToasty/
 
 
-##Usage
+## Usage
 
-####Adding QToasty.js to you website
+#### Adding QToasty.js to you website
 
 ```html
 <head>
@@ -58,13 +58,13 @@ Demo: https://raphaelquintao.github.io/QToasty/
 </script>
 ```
 
-###Konami Code
+### Konami Code
 
 | ↑ | ↑ | ↓ | ↓ | ← | → | ← | → | B | A |
 |---|---|---|---|---|---|---|---|---|---|
 |38|38|40|40|37|39|37|39|66|65|
 
-###Key Codes
+### Key Codes
 
 | Key | Code |
 | --- |:----:|
