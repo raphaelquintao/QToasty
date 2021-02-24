@@ -14,9 +14,9 @@ Demo: https://raphaelquintao.github.io/QToasty/
 
 ```html
 <head>
-    <script src="https://raw.githubusercontent.com/raphaelquintao/QToasty/master/src/qtoasty.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/raphaelquintao/QToasty/master/js/qtoasty.js" type="text/javascript"></script>
     // or
-    <script src="https://raphaelquintao.github.io/QToasty/src/qtoasty.js" type="text/javascript"></script>
+    <script src="https://raphaelquintao.github.io/QToasty/js/qtoasty.js" type="text/javascript"></script>
 </head>
 ```
 #### For the key code version
